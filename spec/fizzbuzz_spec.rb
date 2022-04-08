@@ -25,7 +25,11 @@ describe 'fizzbuzz' do
     expect(45.fizzbuzz).to eq 'fizzbuzz'
   end
 
-  it 'returns 4 when passed 4' do
+  it 'returns "4" when passed 4' do
     expect(4.fizzbuzz).to eq 4
+  end
+
+  it 'returns "0" when passed 0' do
+    expect(0.fizzbuzz).to eq 0
   end
 end
