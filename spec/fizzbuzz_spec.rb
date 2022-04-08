@@ -24,4 +24,8 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when passed 45' do
     expect(45.fizzbuzz).to eq 'fizzbuzz'
   end
+
+  it 'returns 4 when passed 4' do
+    expect(4.fizzbuzz).to eq 4
+  end
 end
